@@ -18,7 +18,7 @@ class App extends React.Component {
         <div>
 
         <Route exact path="/" render={() => (<Dashboard firstName="Blake" lastName="Contreras" wordsToReview={93} reviewsThisWeek={276}/>)} />
-        <Route path="/learn" component={Learn}/>
+        <Route path="/learn" render={() => (<Learn question="私はブレイクです" answer="I am Blake"/>)} />
         <Route path="/review" component={Review}/>
 
       </div>

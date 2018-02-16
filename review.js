@@ -4,7 +4,7 @@ class Review extends React.Component {
   render() {
     return (
       <div>
-        You are on the review page
+        Review!
       </div>
   )}
 }
