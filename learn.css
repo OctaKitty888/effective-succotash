@@ -1,0 +1,13 @@
+.finalAnswer {
+  border-bottom: 1px solid black;
+  height: 3em;
+  margin-bottom: 0.5em;
+}
+
+.correct {
+  color: ForestGreen;
+}
+
+.incorrect {
+  color: FireBrick;
+}
